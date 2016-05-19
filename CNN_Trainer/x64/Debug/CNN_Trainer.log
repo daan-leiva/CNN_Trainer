@@ -1,0 +1,25 @@
+﻿Build started 4/13/2016 8:08:57 PM.
+     1>Project "C:\Users\ResearchBeast\Documents\Visual Studio 2015\Projects\CNN_Trainer\CNN_Trainer\CNN_Trainer.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ResearchBeast\Documents\Visual Studio 2015\Projects\CNN_Trainer\x64\Debug\CNN_Trainer.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\ResearchBeast\Downloads\FANN-2.2.0-Source\FANN-2.2.0-Source\bin" fannfixedd.lib fanndoubled.lib fannfloatd.lib fannfixed.lib fanndouble.lib fannfloat.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\ResearchBeast\Documents\Visual Studio 2015\Projects\CNN_Trainer\x64\Debug\CNN_Trainer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ResearchBeast\Documents\Visual Studio 2015\Projects\CNN_Trainer\x64\Debug\CNN_Trainer.lib" /MACHINE:X64 x64\Debug\Source.obj
+     1>Source.obj : error LNK2019: unresolved external symbol __imp_fann_get_bit_fail referenced in function main
+     1>Source.obj : error LNK2019: unresolved external symbol __imp_fann_train_epoch referenced in function main
+     1>Source.obj : error LNK2019: unresolved external symbol __imp_fann_read_train_from_file referenced in function main
+     1>Source.obj : error LNK2019: unresolved external symbol __imp_fann_set_activation_function_hidden referenced in function main
+     1>Source.obj : error LNK2019: unresolved external symbol __imp_fann_set_activation_function_output referenced in function main
+     1>Source.obj : error LNK2019: unresolved external symbol __imp_fann_create_from_file referenced in function main
+     1>Source.obj : error LNK2019: unresolved external symbol __imp_fann_save referenced in function main
+     1>Source.obj : error LNK2019: unresolved external symbol __imp_fann_create_standard_array referenced in function main
+     1>Source.obj : error LNK2019: unresolved external symbol __imp_fann_destroy referenced in function main
+     1>C:\Users\ResearchBeast\Downloads\FANN-2.2.0-Source\FANN-2.2.0-Source\bin\fannfixedd.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+     1>C:\Users\ResearchBeast\Downloads\FANN-2.2.0-Source\FANN-2.2.0-Source\bin\fanndoubled.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+     1>C:\Users\ResearchBeast\Downloads\FANN-2.2.0-Source\FANN-2.2.0-Source\bin\fannfloatd.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+     1>C:\Users\ResearchBeast\Downloads\FANN-2.2.0-Source\FANN-2.2.0-Source\bin\fannfixed.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+     1>C:\Users\ResearchBeast\Downloads\FANN-2.2.0-Source\FANN-2.2.0-Source\bin\fanndouble.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+     1>C:\Users\ResearchBeast\Downloads\FANN-2.2.0-Source\FANN-2.2.0-Source\bin\fannfloat.lib : warning LNK4272: library machine type 'X86' conflicts with target machine type 'x64'
+     1>C:\Users\ResearchBeast\Documents\Visual Studio 2015\Projects\CNN_Trainer\x64\Debug\CNN_Trainer.exe : fatal error LNK1120: 9 unresolved externals
+     1>Done Building Project "C:\Users\ResearchBeast\Documents\Visual Studio 2015\Projects\CNN_Trainer\CNN_Trainer\CNN_Trainer.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.18
